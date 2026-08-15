@@ -48,7 +48,7 @@ UMC_SIMULADOR/
 
 ## Instrucciones para ejecutar el proyecto de forma local
 
-###1. Instalar las siguientes dependencias:
+### 1. Instalar las siguientes dependencias:
 - Instalar las dependencias son indispensables para ejecutar correctamente el proyecto y evitar errores(`npm install express cors helmet dotenv`)
 
 
