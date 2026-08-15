@@ -46,4 +46,8 @@ UMC_SIMULADOR/
 
 
 
+## Instrucciones para ejecutar el proyecto de forma local
+
+
+
 
