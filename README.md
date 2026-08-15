@@ -24,15 +24,15 @@ UMC_SIMULADOR/
     src/
       controllers/
         evaluacionController.js    #Valiodacion y control de peticiones HTTP.
-      service/
+      services/
         iaService.js               #Conexion lógica a GeminiIA.
     .env                           #Variables de entorno protegidas GEMINI_API_KEY.
     .gitignore                     #Ocultar credenciales claves.
     index.js                       #Punto de entrada principal y configuración global de middlewares.
 
-  ucm-simulador-frontend/
+  umc-simulador-frontend/
     app.js                         #Control de funciones.
-    index.hml                      #Cuerpo del sistema
+    index.html                      #Cuerpo del sistema
     style.css                      #Estilo visual del sistema.
 ````
       
