@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMC - Simulador de Brechas Claro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="cuerpo-simulador">
+
+    <header class="encabezado">
+        <h1 class="titulo-institucional">Universidad Corporativa Claro (UMC)</h1>
+        <span id="nombre-usuario-display" class="etiqueta-asesor">Asesor: Invitado</span>
+    </header>
+
+    <main class="contenedor-principal">
+        
+        <section id="seccion-registro" class="formulario">
+            <h2 class="subtitulo-seccion">Registro del Asesor</h2>
+            <div class="grupo-entrada">
+                <input type="text" id="input-nombre" placeholder="Ingresa tu nombre completo">
+                <button id="btn-ingresar" class="boton-rojo">Ingresar</button>
+             </div>
+        </section>
+
+        <div id="panel-trabajo" class="pantalla-oculta">
+            <section class="tarjeta-simulador">
+                <h2 class="subtitulo-seccion">Evaluación de Competencias Comerciales</h2>
+                <div class="evaluacion-competencia">
+                    <label class="texto-competencia">Selecciona la competencia a evaluar:</label>
+                    <select id="opciones-competencias" class="texto-caso">
+                        <option value="Manejo de Objeciones">Manejo de Objeciones (Precio alto)</option>
+                        <option value="Conocimiento de Producto">Conocimiento de Portafolio Claro Hogar</option>
+                        <option value="Cierre de Ventas">Estrategia de Cierre y Fidelización</option>
+                    </select>
+                </div>
+
+                <div class="resolver-competencia">            
+                    <p class="texto-caso-titulo">Caso de Negocio a Resolver:</p>
+                    <p id="texto-caso" class="texto-procesando">Cargando caso...</p>
+                </div>
+
+                <div class="texto-detallar">
+                    <p class="texto-respuesta">Tu respuesta como asesor:</p>
+                    <textarea id="textarea-respuesta" class="texto-deallado" rows="4" placeholder="Escribe detalladamente cómo manejarías la situación con el cliente..."></textarea>
+                </div>
+
+                <button id="btn-evaluar" class="boton-rojo boton-ancho">Enviar a Evaluación de IA</button>
+                <button id="btn-avance" class="boton-rojo2">TablaAvance</button>
+            </section>
+
+
+            <section id="bloque-resultado" class="pantalla-oculta tarjeta-resultado">
+                <h3 class="titulo-resultado">Calificación del Supervisor UMC</h3>
+                <p class="texto-nota">Puntaje Brecha: <span id="resultado-nota">0.0</span> / 5.0</p>
+                <p class="texto-feedback"><span id="resultado-feedback"></span></p>
+            </section>
+
+        </div>
+
+        <section id="tabla-avance" class="pantalla-oculta tarjeta-tabla">
+            <h3 class="titulo-tabla">Avance del Asesor</h3>
+            <table class="tabla-avance">
+                <thead>
+                    <tr>
+                        <th>Competencia</th>
+                        <th>Antes</th>
+                        <th>después</th>
+                        <th>Observación</th>
+                    </tr>
+                </thead>
+                <tbody id="cuerpo-tabla-avance">
+                </tbody>
+            </table>
+
+            <button id="btn-atras" class="boton-rojo2">Atrás</button>
+
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
