@@ -140,12 +140,11 @@ input[type="text"]:focus, select:focus, textarea:focus {
 
 
 .tarjeta-resultado {
-    background-color: #f0fdf4;
-    border: 1px solid #bbf7d0;
+    background-color: white;
 }
 
 .titulo-resultado {
-    color: #166534;
+    color: #da291c;
     margin-bottom: 10px;
 }
 
