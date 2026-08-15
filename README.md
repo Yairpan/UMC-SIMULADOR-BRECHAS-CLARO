@@ -18,5 +18,14 @@ generando una calificación formativa (1.0 es lo mas bajo, 5.0 es lo mas alto) j
 - Web Storage (`localStorage`):** Mecanismo ágil de persistencia en el lado del cliente para gestionar los estados del tablero y simular el histórico de brechas de forma eficiente].
 
 
+## Características principales del sistema
+
+- Arquitectura Cliente-Servidor Desacoplada: El Frontend y el Backend operan de forma independiente, comunicándose mediante un canal estándar de formato JSON, lo que facilita el mantenimiento aislado de cada capa [Protocolo de Transferencia de Hipertexto].
+- Ingeniería de Prompts Estricta: La capa de servicios formatea las instrucciones del sistema (System Prompt) obligando al modelo de lenguaje a comportarse como un evaluador corporativo estricto y a retornar **únicamente un objeto JSON estructurado**, asegurando la predictibilidad del software.
+- Sistema de Navegación de Panel Único (SPA): JavaScript controla de forma interactiva la visibilidad de las pantallas mediante la propiedad `.style.display`, alternando de forma instantánea entre el registro, el simulador de casos y la tabla de avances sin recargar el navegador.
+- Analizador de Brechas Automatizado: La tabla de avance no es un campo de texto plano estático; realiza una comparación matemática en tiempo real entre la nota base y la calificación de la IA, dictando al supervisor un diagnóstico preciso sobre si la brecha fue reducida, estancada o permanece crítica. 
+- Validación de Datos Defensiva: El sistema cuenta con expresiones regulares (`Regex`) en el inicio de sesión que impiden el ingreso de caracteres numéricos o símbolos extraños en el nombre del asesor, garantizando la calidad de los datos de entrada.
+
+
 
 
