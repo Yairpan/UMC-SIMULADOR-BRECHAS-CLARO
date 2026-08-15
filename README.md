@@ -14,7 +14,7 @@ generando una calificación formativa (1.0 es lo mas bajo, 5.0 es lo mas alto) j
 
 ### Frontend (Interfaz de Usuario)
 - HTML5 & CSS3 Nativo: Estructurado y diseñado utilizando los colores corporativos oficiales de Claro.
-- JavaScript Vanilla (ES6+): Lógica transaccional asíncrona basada en el API Fetch nativa para la comunicación distribuida entre interfaces y manipulación directa del DOM.
+- JavaScript : Lógica transaccional asíncrona basada en el API Fetch nativa para la comunicación distribuida entre interfaces y manipulación directa del DOM.
 - Web Storage (localStorage): Mecanismo ágil de persistencia en el lado del cliente para gestionar los estados del tablero y simular el histórico de brechas de forma eficiente.
 
 ## Estructura del proyecto
@@ -50,8 +50,9 @@ UMC_SIMULADOR/
 
 
 1. Instalar las dependencias son indispensables para ejecutar correctamente el proyecto y evitar errores(`npm install express cors helmet dotenv`)
+2. Iniciar servidor mediante un comando en el punto de entrada principal(`node index.js`), verificar si el servidor arranca en el puerto 3000
+3. Ejecutar la interfaz de usuario, abrir el `indes.html` de la carpeta umc-simulador-frontend
 
-### 2. Iniciar servidor:
 
 
 
