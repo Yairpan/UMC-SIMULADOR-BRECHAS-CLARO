@@ -5,3 +5,6 @@ El sistema opera mediante un flujo interactivo y automatizado: El asesor ingresa
 generando una calificación formativa (1.0 es lo mas bajo, 5.0 es lo mas alto) junto con un análisis detallado, finalizando con una sincronización de resultados mediante una tabla cuyos campos se conforman por una retroalimentación sobre calificaciones pasadas y presentes.
 
 
+## Tecnologías utilizadas
+
+
