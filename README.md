@@ -18,7 +18,7 @@ generando una calificación formativa (1.0 es lo mas bajo, 5.0 es lo mas alto) j
 - Web Storage (localStorage): Mecanismo ágil de persistencia en el lado del cliente para gestionar los estados del tablero y simular el histórico de brechas de forma eficiente.
 
 ## Estructura del proyecto
-
+````text
 UMC_SIMULADOR/
   umc-simulador-backend/
     src/
@@ -34,15 +34,8 @@ UMC_SIMULADOR/
     app.js                         #Control de funciones.
     index.hml                      #Cuerpo del sistema
     style.css                      #Estilo visual del sistema.
-    
-    
+````
       
-      
-      
-
-
-
-
 ## Características principales del sistema
 
 - Arquitectura Cliente-Servidor Desacoplada: El Frontend y el Backend operan de forma independiente, comunicándose mediante un canal estándar de formato JSON, lo que facilita el mantenimiento aislado de cada capa.
