@@ -164,7 +164,7 @@ window.onload = () =>{
     casos.forEach(competencia =>{
         localtrorage.removeItem(`nota_despues_${competencia}`)
         
-    })
+    });
 
 
 actualizarTablaAvance();
