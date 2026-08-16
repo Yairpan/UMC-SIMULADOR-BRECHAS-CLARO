@@ -162,7 +162,7 @@ window.onload = () =>{
 
     const casos = ["Manejo de Objeciones", "Conocimiento de Producto", "Cierre de Ventas"];
     casos.forEach(competencia =>{
-        localtrorage.removeItem(`nota_despues${competencia}`)
+        localtrorage.removeItem(`nota_despues_${competencia}`)
         
     })
 
