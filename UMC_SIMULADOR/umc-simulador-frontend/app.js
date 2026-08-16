@@ -154,5 +154,18 @@ document.getElementById('btn-atras').addEventListener('click', () => {
     document.getElementById('panel-trabajo').style.display = 'block';
 });
 
+window.onload = () =>{
+    console.log("Pagina recargada desde cero");
+
+    localStrorage.removeItem('nota_despues');
+    localStrorage.removeItem('feedback_ia');
+
+    const casos = ["Manejo de Objeciones", "Conocimiento de Producto", "Cierre de Ventas"];
+    casos.forEach(competencia =>{
+        localtrorage.removeItem(`nota_despues${competencia}`)
+        
+    })
+
 
 actualizarTablaAvance();
+}
