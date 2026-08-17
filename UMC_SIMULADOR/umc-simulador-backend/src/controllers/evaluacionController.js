@@ -10,7 +10,7 @@ try{
 
     }
 
-    evaluacionIa = await iaService.evaluarCompetencia({competencia, caso, respuestaEstudiante});
+    const evaluacionIa = await iaService.evaluarCompetencia({competencia, caso, respuestaEstudiante});
 
 
     return res.status(200).json(evaluacionIa);
