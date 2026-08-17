@@ -1,6 +1,6 @@
 const { GoogleGenerativeAI } = require('@google/generative-ai');
-
-const genAI = new GoogleGenerativeAI('AQ.Ab8RN6IG1cl4ATRk1JBZtSSBLATlCoSKIuESzL4EB-Rg0B04bA');
+const apiKey = process.env.GEMINI_API_KEY || 'AQ.Ab8RN6K6U62eLPQX6rLCzbqwxscsomB3p-to0qFpMc1JHkoqZg'; 
+const genAI = new GoogleGenerativeAI('AQ.Ab8RN6K6U62eLPQX6rLCzbqwxscsomB3p-to0qFpMc1JHkoqZg');
 
 const evaluarCompetencia = async ({ competencia, caso, respuestaEstudiante }) => {
     try {
